@@ -6,10 +6,14 @@
 		<title>TraceWISE || Home</title>
 		<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
 		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		/>
 	</head>
 	<body>
 		<!-- Hero Section -->
-		<section id="hero_div">
+		<section class="container hero_section">
 			<header>
 				<a href="#"
 					><img src="./img/TrackWise Logo.png" alt="TraceWISE Logo"
@@ -17,27 +21,31 @@
 				<nav>
 					<ul>
 						<li>
-							<a href="#">Features<i class="fa-solid fa-angle-down"></i></a>
+							<a href="#"
+								>Features&nbsp;<i class="fa-solid fa-angle-down"></i
+							></a>
 						</li>
 						<li>
-							<a href="#">How it Works<i class="fa-solid fa-angle-down"></i></a>
+							<a href="#"
+								>How it Works&nbsp;<i class="fa-solid fa-angle-down"></i
+							></a>
 						</li>
 						<li><a href="#">Company</a></li>
 					</ul>
-					<div class="nav_btn_div">
-						<button type="button" class="login_btn"></button>
-						<button type="button" class="signup_btn"></button>
-					</div>
 				</nav>
+				<div class="nav_btn_div">
+					<button type="button" class="login_btn">Log in</button>
+					<button type="button" class="signup_btn">Sign up</button>
+				</div>
 			</header>
 
 			<div class="hero">
-				<!-- Hero text division -->
 				<div class="hero_text">
-					<h1>Track Your Money. Master Your Future.</h1>
-					<p>
-						Track Wise helps you stay on top of your income, control your daily
-						spending, budget and achieve your financial goals.
+					<h1>Track Your Money. <br />Master Your Future.</h1>
+					<p class="hero_description">
+						Track Wise helps you stay on top of your<br />
+						income, control your daily spending, budget<br />
+						and achieve your financial goals.
 					</p>
 					<div class="get_app_link">
 						<div class="app_store">
@@ -57,21 +65,24 @@
 						</div>
 					</div>
 				</div>
-
-				<!-- Hero image division -->
-				<div class="hero_image">
-					<img src="./img/Rectangle 616.png" />
-					<img
-						src="./img/macbook-pro-mockup.png"
-						alt="Mackbook Pro Mockup Image"
-					/>
-					<img src="./img/Phone mockup.png" alt="Mobile Phone Mockup Image" />
-				</div>
+			</div>
+			<div class="hero_img_div">
+				<img class="img_bg" src="./img/Rectangle 616.png" alt="Background" />
+				<img
+					class="img1"
+					src="./img/macbook-pro-mockup.png"
+					alt="Mackbook Pro Mockup Image"
+				/>
+				<img
+					class="img2"
+					src="./img/Phone mockup.png"
+					alt="Mobile Phone Mockup Image"
+				/>
 			</div>
 		</section>
 
 		<!-- Features Section -->
-		<section class="features_div">
+		<section class="container">
 			<!-- features section image -->
 			<div class="features_img_div">
 				<img src="./img/26A69A right bottom Rectangle.png" alt="Background" />
@@ -111,7 +122,7 @@
 		</section>
 
 		<!-- How it works Section -->
-		<section class="how_it_works_div">
+		<section class="container">
 			<h2>How It Works</h2>
 			<div class="how_it_works_steps">
 				<div class="step_div1">
@@ -135,17 +146,11 @@
 		</section>
 
 		<!-- Testimonials Section-->
-		<section class="Testimonials_div">
-			<img
-				src="./img/26A69A down.png"
-				alt="Right color Background"
-			/>
-			<img
-				src="./img/26A69A up.png"
-				alt="Left color Background"
-			/>
+		<section class="container">
+			<img src="./img/26A69A down.png" alt="Right color Background" />
+			<img src="./img/26A69A up.png" alt="Left color Background" />
 			<div class="testimony">
-                <h2>Testimonials</h2>
+				<h2>Testimonials</h2>
 				<div class="Emeka_testimony">
 					<img src="./img/user-profile.png" alt="User Profile Image" />
 					<img src="./img/4 star.png" alt="Star Rating" />
@@ -178,37 +183,44 @@
 			</div>
 		</section>
 
-        <!-- FAQs -->
-        <section class="FAQs_div">
-            <img src="./img/CBFFD0  Rectangle 629 down.png" alt="Right color Background" />
+		<!-- FAQs -->
+		<section class="container">
+			<img
+				src="./img/CBFFD0  Rectangle 629 down.png"
+				alt="Right color Background"
+			/>
 
-            <div class="FAQs_container">
-                <h2>FAQs</h2>
-                <div class="FAQs">
-                    <div class="question">
-                        <h3>“Is Track Wise free?”</h3>
-                        <img src="./img/solar-arrow-down.png" alt="Arrow_btn">
-                    </div>
-                    <div class="question">
-                        <h3>“Can I use it offline?”</h3>
-                        <img src="./img/solar-arrow-down.png" alt="Arrow_btn">
-                    </div>
-                    <div class="question">
-                        <h3>“Is my data secure?”</h3>
-                        <img src="./img/solar-arrow-down.png" alt="Arrow_btn">
-                    </div>
-                    <div class="question">
-                        <h3>“Does it work on Android & iOS?”</h3>
-                        <img src="./img/solar-arrow-down.png" alt="Arrow_btn">
-                    </div>
-                </div>
-            </div>
-
+			<div class="FAQs_container">
+				<h2>FAQs</h2>
+				<div class="FAQs">
+					<div class="question">
+						<h3>“Is Track Wise free?”</h3>
+						<img src="./img/solar-arrow-down.png" alt="Arrow_btn" />
+					</div>
+					<div class="question">
+						<h3>“Can I use it offline?”</h3>
+						<img src="./img/solar-arrow-down.png" alt="Arrow_btn" />
+					</div>
+					<div class="question">
+						<h3>“Is my data secure?”</h3>
+						<img src="./img/solar-arrow-down.png" alt="Arrow_btn" />
+					</div>
+					<div class="question">
+						<h3>“Does it work on Android & iOS?”</h3>
+						<img src="./img/solar-arrow-down.png" alt="Arrow_btn" />
+					</div>
+				</div>
+			</div>
+		</section>
 		<!-- footer section -->
-		<footer>
-			<img src="./img/TrackWise Logo.png" alt="TrackWISE Logo" />
+		<footer class="container">
+			<img
+				class="white_TrackWise"
+				src="./img/white TrackWise.png"
+				alt="TrackWISE Logo"
+			/>
 			<p>Track<span>WISE</span></p>
-			<p>Your financial clarity starts here</p>
+			<p style="font-weight: 600">Your financial clarity starts here</p>
 			<div class="social_link">
 				<img src="./img/x.png" alt="Twitter Icon" />
 				<img src="./img/instagram.png" alt="Instagram Icon" />
@@ -233,8 +245,10 @@
 				</div>
 			</div>
 			<div class="contact_support">
-				<img src="./img/phone-icon.png" alt="Phone Call Icon" />
-				<p>Contact Support</p>
+				<div class="contact_div">
+					<img src="./img/phone-icon.png" alt="Phone Call Icon" />
+					<p style="font-weight: 600">Contact Support</p>
+				</div>
 				<ul>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Privacy Policy</a></li>
