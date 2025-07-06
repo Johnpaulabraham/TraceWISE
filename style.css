@@ -170,7 +170,7 @@ button {
 .hero_section .hero_img_div {
 	max-width: 500px;
 	position: relative;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .hero_section .img_bg {
