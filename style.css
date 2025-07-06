@@ -264,11 +264,26 @@ button {
 	height: 230px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: flex-start;
 	margin: 30px;
-	padding: 10px;
+	padding: 20px;
 	border-radius: 10px;
+}
+
+.features .features_card .card_div .card img {
+	width: 40px;
+	height: 40px;
+}
+
+.features .features_card .card_div .card h3 {
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+.features .features_card .card_div .card p {
+	font-size: 0.9rem;
+	padding: 7px 0;
 }
 
 .features .features_card .card_div .card1_section .income,
