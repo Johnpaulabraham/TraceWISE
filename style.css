@@ -167,34 +167,34 @@ button {
 	font-size: 0.9rem;
 }
 
-.hero_img_div {
-	width: 400px;
+.hero_section .hero_img_div {
+	max-width: 500px;
 	position: relative;
 	border: 1px solid red;
 }
 
-.hero .img_bg {
-	/* width: 200px; */
-	/* height: 500px; */
+.hero_section .img_bg {
+	width: 25%;
+	height: 500px;
 	position: absolute;
-	left: 0;
-	bottom: 100px;
+	right: 0;
+	bottom: 0;
 }
 
-.hero .img1 {
-	width: 100%;
+.hero_section .img1 {
+	width: 35%;
 	height: auto;
 	position: absolute;
 	right: 0;
-	bottom: 0px;
+	bottom: 140px;
 }
 
-.hero .img2 {
-	width: 100%;
+.hero_section .img2 {
+	width: 9.5%;
 	height: auto;
 	position: absolute;
-	right: 0px;
-	bottom: 0px;
+	right: 238px;
+	bottom: 150px;
 }
 
 /* features section  */
