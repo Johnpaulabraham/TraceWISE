@@ -236,39 +236,38 @@ button {
 }
 
 .features .features_card h2 {
-	/* text-align: center; */
-	/* margin: 40px auto; */
+	padding-top: 20px;
 	font-size: 1.8rem;
-	/* padding: 3rem 0; */
 }
 
 .features .features_card .card_div {
-	width: 90%;
-	height: 90%;
+	max-width: 90%;
+	height: auto;
 	padding: 5px;
 }
 
 .features .features_card .card_div .card1_section {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+	margin: 0 auto;
 }
 
 .features .features_card .card_div .card2_section {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 
 .features .features_card .card_div .card {
-	width: 250px;
-	height: 250px;
+	width: 230px;
+	height: 230px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	margin: 5px;
-	padding: 5px;
+	margin: 30px;
+	padding: 10px;
 	border-radius: 10px;
 }
 
